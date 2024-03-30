@@ -35,7 +35,7 @@ class TestDemoJUnitTest {
 	}
 	public static Stream<Arguments> argumentsForAddPositive(){
 		return Stream.of(
-				Arguments.of(2, 4, 6, true),
+				Arguments.of(2, 4, 6, false),
 				Arguments.of(1, 3, 4, false),
 				Arguments.of(2, 8, 10, false),
 				Arguments.of(-1, 10, 9, true)
